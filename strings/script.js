@@ -40,7 +40,7 @@
 
 
 // qs3 check if string is pallindrom or not(forward and backward same read that is pallindrom)
-
+// qs4 toggle the given string
 
 
 
