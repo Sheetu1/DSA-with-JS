@@ -40,6 +40,23 @@
 
 
 // qs3 check if string is pallindrom or not(forward and backward same read that is pallindrom)
+let str = prompt("Enter any string")
+let isPallindrome = true;
+let i=0, j=str.length-1;
+while(i<j){
+    if(str.charAt(i) != str.charAt(j))
+    {
+        isPallindrome = false;
+        break;
+    }
+    i++;
+    j--;
+}
+
+if(isPallindrome) console.log('Pallindrome');
+else console.log('Not Pallindrome');
+
+
 // qs4 toggle the given string
 
 
