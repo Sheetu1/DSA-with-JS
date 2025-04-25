@@ -62,20 +62,20 @@
 
 // qs4 2nd maximum number
 
-let arr = [10,20,50,68,22,44]
-let max = Math.max(arr[0],arr[1])
-let smax = Math.min(arr[0],arr[1])
+// let arr = [10,20,50,68,22,44]
+// let max = Math.max(arr[0],arr[1])
+// let smax = Math.min(arr[0],arr[1])
 
-for(let i=2; i<arr.length; i++){
-    if(arr[i]>max){
-        smax = max;
-        max = arr[i];
-    }
-    else if(arr[i] > smax && max!= arr[i]) {
-        smax = arr[i];
-    }
-}
-console.log(smax);
+// for(let i=2; i<arr.length; i++){
+//     if(arr[i]>max){
+//         smax = max;
+//         max = arr[i];
+//     }
+//     else if(arr[i] > smax && max!= arr[i]) {
+//         smax = arr[i];
+//     }
+// }
+// console.log(smax);
 
 // qs5 2nd minimum number
 // let arr = [1, 20, 50, 68, 88, 74, 12, 5];
@@ -124,4 +124,14 @@ console.log(smax);
 
 // let arr = [-1,2,3,4,-5,-6,7,8,,9,-10]
 
-// qs-9
+// qs-9 reverse array 
+
+let arr = [10,20,30,40,50]
+let temp = new Array(arr.length);
+let j=0;
+for(let i=arr.length-1; i>=0; i--){
+    temp[j] = arr[i];
+    j++;
+}
+console.log(temp);
+
