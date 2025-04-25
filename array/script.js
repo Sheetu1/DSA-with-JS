@@ -62,36 +62,36 @@
 
 // qs4 2nd maximum number
 
-// let arr = [10,20,50,68,22,44]
-// let max = Math.max(arr[0],arr[1])
-// let smax = Math.min(arr[0],arr[1])
+let arr = [10,20,50,68,22,44]
+let max = Math.max(arr[0],arr[1])
+let smax = Math.min(arr[0],arr[1])
 
-// for(let i=2; i<arr.length; i++){
-//     if(arr[i]>max){
-//         smax = max;
-//         max = arr[i];
-//     }
-//     else if(arr[i] > smax && max!= arr[i]){
-//         smax = arr[i];
-//     }
-// }
-// console.log(smax);
+for(let i=2; i<arr.length; i++){
+    if(arr[i]>max){
+        smax = max;
+        max = arr[i];
+    }
+    else if(arr[i] > smax && max!= arr[i]) {
+        smax = arr[i];
+    }
+}
+console.log(smax);
 
 // qs5 2nd minimum number
-let arr = [1, 20, 50, 68, 88, 74, 12, 5];
+// let arr = [1, 20, 50, 68, 88, 74, 12, 5];
 
-let min = Infinity;
-let smin = Infinity;
+// let min = Infinity;
+// let smin = Infinity;
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] < min) {
-    smin = min;
-    min = arr[i];
-  } else if (arr[i] > min && arr[i] < smin) {
-    smin = arr[i];
-  }
-}
-console.log("Second minimum:", smin);
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     smin = min;
+//     min = arr[i];
+//   } else if (arr[i] > min && arr[i] < smin) {
+//     smin = arr[i];
+//   }
+// }
+// console.log("Second minimum:", smin);
 
 // qs6 reverse an array
 // let arr = [10,20,30,40,50]
