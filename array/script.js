@@ -137,17 +137,30 @@
 
 // qs-10 without extra space
 
-let arr = [10,20,30,40,50]
-let i =0, j = arr.length-1;
-let temp;
-while(i!=j){
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
-    i++
-    j--
+// let arr = [10,20,30,40,50]
+// let i =0, j = arr.length-1;
+// let temp;
+// while(i!=j){
+//     temp = arr[i]
+//     arr[i] = arr[j]
+//     arr[j] = temp
+//     i++
+//     j--
+// }
+// console.log(arr);
+
+// qs-11 all zeros right side and ones in left side
+let arr = [1, 0, 0, 1, 1, 0];
+let i = 0,
+  j = 0,
+  temp;
+while (i < arr.length) {
+  if (arr[i] == 0) {
+    temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+    j++;
+  }
+  i++;
 }
 console.log(arr);
-
-
-
