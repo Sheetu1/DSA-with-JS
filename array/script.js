@@ -21,8 +21,6 @@
 // }
 // console.log(arr);
 
-
-
 // qs1  sum of n elements in an array 
 // let arr = [10,20,30,40,100]
 // sum = 0;
@@ -30,6 +28,20 @@
 //     sum = sum+arr[i];
 // }
 // console.log(sum);
+
+
+// let arr = new Array(5);
+// for(let i=0; i<arr.length; i++){
+//     arr[i] = Number(prompt('Enter any number'));  
+// }
+// let sum = 0;
+// for(let i=0; i<arr.length; i++){
+//     sum = sum + arr[i];
+// }
+// console.log(sum);
+
+
+
 
 // qs2  maximum number of an element 
 
@@ -107,17 +119,17 @@
 
 // qs7 two pointer based zero values and 1 values
 
-// let arr = [1,1,0,1,0,1,1,0,0]
-// let i =0 ,j =0;
-// while(i<arr.length){
-//     if(arr[i]==0){
-//         let temp = arr[i];
-//         arr[i] = arr[j];
-//         arr[j] = temp;
-//         j++;
-//     }
-//     i++;
-// }
+let arr = [1,1,0,1,0,1,1,0,0]
+let i =0 ,j =0;
+while(i<arr.length){
+    if(arr[i]==0){
+        let temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        j++;
+    }
+    i++;
+}
 // console.log(arr);
 
 // qs8 move the all negative element left side and positive element move the right side
