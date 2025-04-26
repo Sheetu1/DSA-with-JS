@@ -150,17 +150,27 @@
 // console.log(arr);
 
 // qs-11 all zeros right side and ones in left side
-let arr = [1, 0, 0, 1, 1, 0];
-let i = 0,
-  j = 0,
-  temp;
-while (i < arr.length) {
-  if (arr[i] == 0) {
-    temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-    j++;
-  }
-  i++;
+// let arr = [1, 0, 0, 1, 1, 0];
+// let i = 0,
+//   j = 0,
+//   temp;
+// while (i < arr.length) {
+//   if (arr[i] == 0) {
+//     temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     j++;
+//   }
+//   i++;
+// }
+// console.log(arr);
+
+// left rotation by 1 element
+
+let arr = [1,2,3,4,5]
+let copy = arr[0]
+for(let i=0; i<arr.length-1; i++){
+    arr[i] = arr[i+1]
 }
+arr[arr.length-1] = copy
 console.log(arr);
