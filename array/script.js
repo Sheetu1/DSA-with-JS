@@ -176,11 +176,22 @@
 // console.log(arr);
 
 // Right rotation by one element 
-let arr = [1,2,3,4,5]
-let copy = arr[arr.length-1]
-for(let i=arr.length-1; i>0; i--){
-    arr[i] = arr[i-1]
-}
-arr[0] = copy;
+// let arr = [1,2,3,4,5]
+// let copy = arr[arr.length-1]
+// for(let i=arr.length-1; i>0; i--){
+//     arr[i] = arr[i-1]
+// }
+// arr[0] = copy;
+// console.log(arr);
+
+// sorted array 
+let arr = [2,5,4,1,3]
+arr.sort((a,b)=>a-b);
 console.log(arr);
+
+// unsorted array
+// let arr = [2,5,4,1,3]
+// arr.sort((a,b)=>b-a);
+// console.log(arr);
+
 
