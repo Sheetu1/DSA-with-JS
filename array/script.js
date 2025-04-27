@@ -175,7 +175,7 @@
 // arr[arr.length-1] = copy
 // console.log(arr);
 
-// Right rotation by one element 
+// Right rotation by one element
 // let arr = [1,2,3,4,5]
 // let copy = arr[arr.length-1]
 // for(let i=arr.length-1; i>0; i--){
@@ -184,14 +184,22 @@
 // arr[0] = copy;
 // console.log(arr);
 
-// sorted array 
+// sorted array
 // let arr = [2,5,4,1,3]
 // arr.sort((a,b)=>a-b);
 // console.log(arr);
 
 // unsorted array
-let arr = [2,5,4,1,3]
-arr.sort((a,b)=>b-a);
-console.log(arr);
+// let arr = [2,5,4,1,3]
+// arr.sort((a,b)=>b-a);
+// console.log(arr);
 
+// nested looping
+for (let i = 1; i <= 4; i++) {
+  console.log(i, "Execution");
+  for (let j = 1; j <=3; j++) {
+    console.log('hello');
+  }
+}
 
+// all positive values left side and all negative values right side
