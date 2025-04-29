@@ -185,9 +185,9 @@
 // console.log(arr);
 
 // sorted array
-// let arr = [2,5,4,1,3]
-// arr.sort((a,b)=>a-b);
-// console.log(arr);
+let arr = [2,5,4,1,3,6]
+arr.sort((a,b)=>a-b);
+console.log(arr);
 
 // unsorted array
 // let arr = [2,5,4,1,3]
