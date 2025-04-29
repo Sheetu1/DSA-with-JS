@@ -185,9 +185,9 @@
 // console.log(arr);
 
 // sorted array
-let arr = [2,5,4,1,3,6]
-arr.sort((a,b)=>a-b);
-console.log(arr);
+// let arr = [2,5,4,1,3,6]
+// arr.sort((a,b)=>a-b);
+// console.log(arr);
 
 // unsorted array
 // let arr = [2,5,4,1,3]
@@ -195,12 +195,12 @@ console.log(arr);
 // console.log(arr);
 
 // nested looping
-for (let i = 1; i <= 4; i++) {
-  console.log(i, "Execution");
-  for (let j = 1; j <= 3; j++) {
-    console.log("hello");
-  }
-}
+// for (let i = 1; i <= 4; i++) {
+//   console.log(i, "Execution");
+//   for (let j = 1; j <= 3; j++) {
+//     console.log("hello");
+//   }
+// }
 
 
 // all positive values left side and all negative values right side

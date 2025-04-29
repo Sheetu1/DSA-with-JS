@@ -60,14 +60,13 @@
 let str = prompt("Enter any String");
 console.log(str);
 let toggle = "";
-for(let i = 0; i < str.length; i++) {
-    let ch = str.charCodeAt(i);
-    if(ch >= 65 && ch <= 90) {
-        toggle = toggle + String.fromCharCode(ch + 32);  // Upper to lower
-    }
-    else if(ch >= 97 && ch <= 122) {
-        toggle = toggle + String.fromCharCode(ch - 32);  // Lower to upper
-    }
+for (let i = 0; i < str.length; i++) {
+  let ch = str.charCodeAt(i);
+  if (ch >= 65 && ch <= 90) {
+    toggle = toggle + String.fromCharCode(ch + 32); // Upper to Lower
+  } else if (ch >= 97 && ch <= 122) {
+    toggle = toggle + String.fromCharCode(ch - 32); // Lower to Upper
+  }
 }
 console.log(toggle);
 
