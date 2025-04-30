@@ -57,19 +57,19 @@
 // }
 
 // qs-4 toggle the given string
-let str = prompt("Enter Any String");
-console.log(str);
-let toggle = "";
-for (let i = 0; i < str.length; i++) {
-  let ch = str.charCodeAt(i);
-  if (ch >= 65 && ch <= 90) {
-    toggle = toggle + String.fromCharCode(ch + 32); // Upper to Lower
-  } else if (ch >= 97 && ch <= 122) {
-    toggle = toggle + String.fromCharCode(ch - 32); // Lower to Upper
-  }
-}
+// let str = prompt("Enter Any String");
+// console.log(str);
+// let toggle = "";
+// for (let i = 0; i < str.length; i++) {
+//   let ch = str.charCodeAt(i);
+//   if (ch >= 65 && ch <= 90) {
+//     toggle = toggle + String.fromCharCode(ch + 32); // Upper to Lower
+//   } else if (ch >= 97 && ch <= 122) {
+//     toggle = toggle + String.fromCharCode(ch - 32); // Lower to Upper
+//   }
+// }
 
-console.log(toggle);
+// console.log(toggle);
 
 // qs-5 Frequency of each characters
 //  ex-> hello
