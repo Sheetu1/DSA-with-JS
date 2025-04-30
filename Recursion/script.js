@@ -15,10 +15,18 @@
 
 // print n natural numbers  in reverse order
 
-function RevNaturalNum(n){
+// function RevNaturalNum(n){
+//     if(n == 0) return;
+//     console.log(n);  
+//     // NaturalNum(--n);
+//     RevNaturalNum(n-1);
+// }
+// RevNaturalNum(10);
+
+// print n natural numbers 
+function NaturalNum(n){
     if(n == 0) return;
-    console.log(n);  
-    // NaturalNum(--n);
-    RevNaturalNum(n-1);
+    NaturalNum(n-1);
+    console.log(n); 
 }
-RevNaturalNum(10);
+NaturalNum(20);
