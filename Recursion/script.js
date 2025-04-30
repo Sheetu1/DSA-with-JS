@@ -13,12 +13,12 @@
 // }
 // PrintHello(100);
 
-// print n natural numbers 
+// print n natural numbers  in reverse order
 
-function NaturalNum(n){
+function RevNaturalNum(n){
     if(n == 0) return;
     console.log(n);  
     // NaturalNum(--n);
-    NaturalNum(n-1);
+    RevNaturalNum(n-1);
 }
-NaturalNum(10);
+RevNaturalNum(10);
