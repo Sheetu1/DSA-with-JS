@@ -35,8 +35,16 @@
 
 // sum of n elements
 
-function Sum(n){
+// function Sum(n){
+//     if(n == 1) return 1;
+//     return n + Sum(n-1);
+// }
+// console.log(Sum(5));
+
+// factorial of n elements
+
+function Fact(n){
     if(n == 1) return 1;
-    return n + Sum(n-1);
+    return n * Fact(n-1);
 }
-console.log(Sum(5));
+console.log(Fact(5));
