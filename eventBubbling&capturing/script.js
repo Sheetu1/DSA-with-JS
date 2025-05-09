@@ -2,18 +2,18 @@ const green = document.querySelector('.green');
 const pink = document.querySelector('.pink');
 const blue = document.querySelector('.blue');
 
-// blue.addEventListener( "click", (e) => {
-//     console.log('blue eventListener');
-//     e.stopPropagation();
-// })
+blue.addEventListener( "click", (e) => {
+    console.log('blue EventListener');
+    e.stopPropagation();
+})
 
 pink.addEventListener("click", function(){
-    console.log("pink eventListener");
+    console.log("pink EventListener");
     
 })
 
 green.addEventListener("click", function(){
-    console.log("green eventListener");
+    console.log("green EventListener");
     
 })
 
